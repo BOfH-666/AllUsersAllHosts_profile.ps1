@@ -1,7 +1,7 @@
 # AllUsersAllHosts_profile.ps1
 
-I used the blog post from [Mike F. Robbins](https://mikefrobbins.com/about/) about how to use symlinks to version-control your PowerShell profile with Git to merge all my PowerShell profiles into one.
-It satisfies my requirements and is not too fancy to work on all machines.
+After reading the blog post from [Mike F. Robbins](https://mikefrobbins.com/about/) about how to use symlinks to version-control your PowerShell profile with Git I merged all my PowerShell profiles into one.
+It satisfies my requirements and is not too fancy to work on all machines I need.
 
 Feel free to use it as it is or as inspiration for your own code. 🤟🏼😉
 

@@ -1,6 +1,6 @@
 $symlinkParams = @{
     Path     = $PROFILE.AllUsersAllHosts
-    Value    = "AllUsersAllHosts_profile.ps1"
+    Value    = "$PSScriptRoot\AllUsersAllHosts_profile.ps1"
     ItemType = 'SymbolicLink'
     Force    = $true
 }

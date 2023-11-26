@@ -62,3 +62,8 @@ if ( -Not (Test-Path $ConsoleStartPath) ) {
     New-Item -Path $ConsoleStartPath -ItemType Directory -Force -ErrorAction SilentlyContinue | Out-Null
 }
 Set-Location -Path $ConsoleStartPath
+
+$PSDefaultParameterValues = @{
+    'Out-Default:OutVariable'      = 'LastResult'
+    'Export-Csv:NoTypeInformation' = $true
+}

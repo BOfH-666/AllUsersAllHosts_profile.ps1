@@ -67,3 +67,8 @@ $PSDefaultParameterValues = @{
     'Out-Default:OutVariable'      = 'LastResult'
     'Export-Csv:NoTypeInformation' = $true
 }
+
+$host.PrivateData.ErrorForegroundColor = 'Green'
+if ($PSVersionTable.PSVersion -ge '7.2') {
+    $psstyle.Formatting.Error = $PSStyle.Formatting.FormatAccent
+}

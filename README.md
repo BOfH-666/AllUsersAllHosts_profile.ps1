@@ -8,3 +8,7 @@ Feel free to use it as it is or as inspiration for your own code. 🤟🏼😉
 To create the symlinks for PowerShell and Windows PowerShell start either console elevated, change working directory to where the profile script is and run `CreateSymlink.ps1`.
 
 Mike's Blog Post: [Use symlinks to version-control your PowerShell profile with Git](https://mikefrobbins.com/2023/11/09/use-symlinks-to-version-control-your-powershell-profile-with-git/)
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (GPL-3.0).
